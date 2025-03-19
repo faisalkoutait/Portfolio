@@ -533,13 +533,14 @@ margin-bottom: var(--section-padding);
 
 .footer .container .box p{
     font-size: 16px;
+    color: rgb(207, 206, 206);
 }
 .footer .container .social i{
     font-size: 30px;
     margin-top: 10px;
     margin-right: 10px;
 }
-/* End Footer */
+/* Start Footer */
 
 
 
