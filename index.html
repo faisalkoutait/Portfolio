@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navMenu = document.querySelector("nav ul");
+
+            menuToggle.addEventListener("click", function () {
+                navMenu.classList.toggle("active");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <h2>Faisal Koutait</h2>
+            </a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <div class="home" id="#home">
+        <div class="container">
+            <div class="content">
+                <h2>Hello, i’m</h2>
+                <h1>Faisal Koutait</h1>
+                <p>Freelance UI designer, Fullstack developer, & Data Miner. I create seamless web experiences for
+                    end-users.</p>
+                <button>About me<i class="fas fa-user"></i></button>
+                <button>Projects<i class="fas fa-eye"></i></button>
+            </div>
+            <div class="img">
+                <img src="images/me.png" alt="me">
+            </div>
+        </div>
+    </div>
+    <!-- End Home -->
+    <!-- Start About me -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <h2>About me:</h2>
+                <p>Hi, my name is Jayjay Dinero Dinero, i am a Fullstack web developer, UI designer, and Mobile
+                    developer. I jhave honed my skills in Web Development and advance i have core understanding of
+                    advance UI design principles.
+                    Here are the major skiills i have. </p>
+                <div> <b>5+</b>
+                    <span>Years of experience. Specialised in building apps, while ensuring a seamless
+                        web experience for end users.</span>
+                </div>
+
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <p>UI&UX</p>
+                    <P>DESIGNING</P>
+                </div>
+                <div class="box">
+                    <i class="fas fa-laptop-code"></i>
+                    <P>WEB</P>
+                    <P>DEVELOPMENT</P>
+                </div>
+                <div class="box">
+                    <i class="fas fa-code-branch"></i>
+                    <P>MOBILE</P>
+                    <P>DEVELOPMENT</P>
+                </div>
+                <div class="box">
+                    <i class="fas fa-database"></i>
+                    <P>WEB SCRAPING</P>
+                    <P>WITH PAITHON</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About me -->
+    <!-- Start Services -->
+    <div class="services">
+        <div class="container">
+            <h2>The services i offer:</h2>
+            <div class="boxes">
+                <div class="A">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <p>UI&UX DESIGNING</P>
+                    <p>I design beautiful web iterfaces with Figma and Adove XD.</p>
+                </div>
+                <div class="B">
+                    <i class="fas fa-laptop-code"></i>
+                    <P>WEB DEVELOPMENT</P>
+                    <p>I create beautiful iterfaces with simple HTML, CSS, & JavaScript and also frameworks like
+                        Angular and ReactJS.</p>
+
+                </div>
+                <div class="C">
+                    <i class="fas fa-code-branch"></i>
+                    <P>MOBILE DEVELOPMENT</P>
+                    <p>I am an expert mobile developer. I have experience using Flutter and React Native.</p>
+                </div>
+                <div class="D">
+                    <i class="fas fa-database"></i>
+                    <P>VERTION CONTROL</P>
+                    <p>I can use version control systems well, and Git & Mecurial are my go-to tool.</p>
+                </div>
+                <div class="E">
+                    <i class="fas fa-database"></i>
+                    <p>NPM AND NODEJS</p>
+                    <p>I have core understanding of NPM.
+
+                        I can also develop general purpose applications with NodeJS</p>
+                </div>
+                <div class="F">
+                    <i class="fas fa-database"></i>
+                    <p>WEB SCRAPING</p>
+                    <p>I can collect content and data from the internet then manipulate and analyze as needed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Feat -->
+    <div class="feat" id="#">
+        <div class="container">
+            <div class="content">
+                <h2>Featured projects:</h2>
+                <p>I have worked on many projects over the course of being a Web Developer, here are a few of my live,
+                    real-world projects.</p>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <img src="images/Screenshot 2025-03-16 210903.png" alt="">
+                    <div class="content">
+                        <h2>TWINDER</h2>
+                        <p>A live Geolocation app for finding tweets and twitter users around you.</p>
+                        <button>View Live</button>
+                        <button>Github Repo</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/Screenshot 2025-03-16 210929.png" alt="">
+                    <div class="content">
+                        <h2>LIVENTS</h2>
+                        <p>A video streaming app with live Geolocation, for streaming events.</p>
+                        <button>View Live</button>
+                        <button>Github Repo</button>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/Screenshot 2025-03-16 210951.png" alt="">
+                    <div class="content">
+                        <h2>MOOVE</h2>
+                        <p>Mobile app for booking instant pickup & dropoff accross major cities.</p>
+                        <button>View Live</button>
+                        <button>Github Repo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Feat -->
+    <!-- Start Contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="social">
+                <h2>Connect with me:</h2>
+                <p>Satisfied with me? Please contact me</p>
+                <a href=""><i class="fab fa-facebook-square"></i></a> <a href=""><i
+                        class="fab fa-twitter-square"></i></a> <a href="">
+                    <i class="fab fa-google-plus-square"></i></a> <a href=""><i class="fab fa-instagram-square"></i></a>
+            </div>
+            <div class="message">
+                <p>Contact me, let’s make magic together</p>
+                <input type="text" placeholder="Name:">
+                <br>
+                <input type="email" placeholder="Email:">
+                <br>
+                <input type="text" placeholder="Message:">
+                <br>
+                <button>send</button>
+            </div>
+<<<<<<< HEAD
+=======
+            <div class="footer">
+
+            </div>
+>>>>>>> 95e5685d662c23c542d4e59f5bb9aac5d056c36c
+        </div>
+    </div>
+    <!-- End Contact -->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+            <p>@2022 Faisal Koutait</p>
+            <p>Fullstack Developer</p>
+            <p>UI Designer</p>
+            <p>Data Analyst</p>
+            <p>Designed by @ernestechie</p>
+        </div>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook-square"></i></a> <a href=""><i
+                class="fab fa-twitter-square"></i></a> <a href="">
+            <i class="fab fa-google-plus-square"></i></a> <a href=""><i class="fab fa-instagram-square"></i></a>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
